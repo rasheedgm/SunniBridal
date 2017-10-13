@@ -28,7 +28,7 @@
   <allow-intent href="geo:*"/>
 <allow-navigation href="http://sunnibridal.com/*" />
      <!-- Core plugins -->
-    <plugin name="cordova-plugin-battery-status" />
+   <!-- <plugin name="cordova-plugin-battery-status" />-->
     <plugin name="cordova-plugin-camera" />
     <plugin name="cordova-plugin-media-capture" />
     <plugin name="cordova-plugin-device-orientation" />
@@ -36,8 +36,8 @@
     <plugin name="cordova-plugin-file" />
     <plugin name="cordova-plugin-inappbrowser" />
     <plugin name="cordova-plugin-media" />
-    <plugin name="cordova-plugin-splashscreen" />
-<plugin name="cordova-plugin-vibration" />
+  <!--  <plugin name="cordova-plugin-splashscreen" />-->
+<!--<plugin name="cordova-plugin-vibration" />-->
   <platform name="android">
     <allow-intent href="market:*"/>
   </platform>
