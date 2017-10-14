@@ -30,9 +30,9 @@
 <icon src="icon.png" />
     <splash src="splash.png" />
     <preference name="SplashScreen" value="splash" />
-<preference name="SplashScreenDelay" value="5000" />
+<preference name="SplashScreenDelay" value="2000" />
 <preference name="ShowSplashScreenSpinner" value="true"/>
-<preference name="SplashShowOnlyFirstTime" value="true" />
+<preference name="SplashShowOnlyFirstTime" value="false" />
 
 <plugin name="cordova-plugin-splashscreen" source="npm" />
 
