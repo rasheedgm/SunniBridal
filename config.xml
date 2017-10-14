@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sunnibridal.matrimonial" version="0.0.5">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sunnibridal.matrimonial" version="0.0.6">
   <name>SunniBridal</name>
   <description>Matrimonial for sunni community</description>
   <author href="http://sunnibridal.com/" email="sunnibridal@gmail.com.com">SunniBridal</author>
@@ -7,6 +7,7 @@
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
   <preference name="fullscreen" value="false"/>
+    <preference name="SplashScreen" value="splash" />
   <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
   <preference name="stay-in-webview" value="false"/>
