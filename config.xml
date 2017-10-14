@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sunnibridal.matrimonial" version="0.0.6">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sunnibridal.matrimonial" version="0.0.8">
   <name>SunniBridal</name>
   <description>Matrimonial for sunni community</description>
   <author href="http://sunnibridal.com/" email="sunnibridal@gmail.com.com">SunniBridal</author>
