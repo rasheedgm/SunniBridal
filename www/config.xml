@@ -32,9 +32,9 @@
     <!--<preference name="SplashScreen" value="splash" />
 <preference name="SplashScreenDelay" value="5000" />
 <preference name="ShowSplashScreenSpinner" value="true"/>
-<preference name="SplashShowOnlyFirstTime" value="false" />
+<preference name="SplashShowOnlyFirstTime" value="false" /> -->
 
-<plugin name="cordova-plugin-splashscreen" source="npm" /> -->
+<plugin name="cordova-plugin-splashscreen" source="npm" />
  <access origin="*" />
 <allow-navigation href="http://sunnibridal.com/*" />
      <!-- Core plugins -->
