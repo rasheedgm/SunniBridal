@@ -37,6 +37,7 @@ var app = {
         window.plugins.PushbotsPlugin.initialize("59e31fe09b823a29548b4594", {"android":{"sender_id":"17733426527"}});
         window.plugins.PushbotsPlugin.on("user:ids", function(data){
             console.log("user:ids" + JSON.stringify(data));
+            document.getElementById('msg').innerHTML=data;
         });
         window.plugins.PushbotsPlugin.on("registered", function(token){
             console.log(token);
