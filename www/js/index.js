@@ -35,6 +35,20 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         window.plugins.PushbotsPlugin.initialize("59e31fe09b823a29548b4594", {"android":{"sender_id":"17733426527"}});
+        window.plugins.PushbotsPlugin.getRegistrationId(function(token){   
+            console.log("Registration Id:" + token);
+            $.ajax({
+                url:'http://sunnibridal.com/profile/app_token',
+                method:"POST",
+                data:{token :token},
+                success:function(data){
+                    console.log("from server"+data);
+                },
+                error:function(err){
+                    console.log("error"+err);
+                }
+            });
+        });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
