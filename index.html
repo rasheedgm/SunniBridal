@@ -21,26 +21,6 @@
     <script type="text/javascript" src="js/service/InitService.js"></script>
     <script type="text/javascript" src="js/controller/IndexPageController.js"></script>
     <script type="text/javascript" src="js/controller/DetailPageController.js"></script>-->
-      
-       <script type="text/javascript" src="js/cordova.js"></script>
-      <script type="text/javascript">
-         document.addEventListener("deviceready",onDeviceReady,false);
-                function onDeviceReady() {
-                     var push = PushNotification.init({ "android": {"senderID": "797176659838"}});
-                     push.on('registration', function(data) {
-                     alert(data.registrationId);
-                     });
-          
-                     push.on('notification', function(data) {
-                     alert(data.title+" Message: " +data.message);
-                     });
-          
-                     push.on('error', function(e) {
-                     alert(e);
-                     });
-                }
-             
-      </script>
     
   </head>
   <body>
