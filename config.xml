@@ -1,4 +1,4 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sunnibridal.matrimonial" version="0.0.8">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.sunnibridal.matrimonial" version="0.1.0">
   <name>SunniBridal</name>
   <description>Matrimonial for sunni community</description>
   <author href="http://sunnibridal.com/" email="sunnibridal@gmail.com.com">SunniBridal</author>
@@ -35,7 +35,7 @@
 <preference name="SplashShowOnlyFirstTime" value="false" />
 
 <plugin name="cordova-plugin-splashscreen" source="npm" />
-
+ <access origin="*.pushbots.com" />
 <allow-navigation href="http://sunnibridal.com/*" />
      <!-- Core plugins -->
    <!-- <plugin name="cordova-plugin-battery-status" />
@@ -47,6 +47,8 @@
     <plugin name="cordova-plugin-media" />
 <!-- <plugin name="cordova-plugin-splashscreen" /> -->
 <!--<plugin name="cordova-plugin-vibration" />-->
+    
+    <gap:plugin name="pushbots-cordova-plugin" spec="^1.4.0" source="npm" />
   <platform name="android">
     <allow-intent href="market:*"/>
   </platform>
